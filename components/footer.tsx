@@ -80,35 +80,30 @@ export async function Footer() {
           <div className="lg:col-span-2">
             <h3 className="label text-bone/60">{t('contactTitle')}</h3>
             <ul className="mt-5 space-y-3 text-sm">
-              <li>
-                <a
-                  href={`tel:${contacts.phone.replace(/\s/g, '')}`}
-                  className="text-travertine/75 transition-colors hover:text-terracotta"
-                >
-                  {contacts.phone}
-                </a>
-              </li>
-              <li>
-                <a
-                  href={`mailto:${contacts.email}`}
-                  className="break-all text-travertine/75 transition-colors hover:text-terracotta"
-                >
-                  {contacts.email}
-                </a>
-              </li>
+              {[contacts.phone, contacts.secondaryPhone].map((phone) => (
+                <li key={phone}>
+                  <a
+                    href={`tel:${phone.replace(/[^\d+]/g, '')}`}
+                    className="text-travertine/75 transition-colors hover:text-terracotta"
+                  >
+                    {phone}
+                  </a>
+                </li>
+              ))}
               <li className="flex gap-2 pt-2">
                 {[
-                  { l: 'Instagram', h: contacts.instagram, txt: 'IG' },
-                  { l: 'Facebook', h: contacts.facebook, txt: 'FB' },
-                  { l: 'WhatsApp', h: contacts.whatsapp, txt: 'WA' },
+                  { label: 'Instagram', href: contacts.instagram, text: 'IG' },
+                  { label: 'Facebook', href: contacts.facebook, text: 'FB' },
                 ].map((s) => (
                   <a
-                    key={s.l}
-                    href={s.h}
-                    aria-label={s.l}
+                    key={s.label}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={s.label}
                     className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-xs transition-colors hover:border-terracotta hover:text-terracotta"
                   >
-                    {s.txt}
+                    {s.text}
                   </a>
                 ))}
               </li>

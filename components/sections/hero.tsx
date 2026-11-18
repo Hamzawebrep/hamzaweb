@@ -76,6 +76,10 @@ export function Hero() {
             {t('subtitle')}
           </motion.p>
 
+          <p className="mt-3 max-w-xl text-xs leading-relaxed tracking-[0.08em] text-travertine sm:text-sm">
+            {t('surfaceTypes')}
+          </p>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

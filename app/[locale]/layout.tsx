@@ -52,12 +52,20 @@ export async function generateMetadata({
       description: t('description'),
       locale: locale === 'fr' ? 'fr_FR' : 'en_US',
       siteName: 'AM Atelier',
-      images: [{ url: '/og.png', width: 1200, height: 630, alt: 'AM Atelier' }],
+      images: [
+        {
+          url: '/opengraph-image',
+          width: 1200,
+          height: 630,
+          alt: 'AM Atelier — Finitions haut de gamme pour villas & espaces d’exception',
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
+      images: ['/opengraph-image'],
     },
     alternates: {
       canonical: `/${locale}`,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "AM Atelier — Microcement & Béton Ciré by Hamza Tagdalt",
-    "description": "Specialists in microcement and béton ciré in Morocco. Seamless 2-3 mm surfaces without joints for villas, hotels, spas and boutiques. Quote within 24h.",
+    "description": "Premium finishes for villas and exceptional spaces. Microcement floors, walls, bathrooms and kitchens across Morocco.",
     "keywords": "microcement, polished concrete, Morocco, Casablanca, Marrakech, seamless floor, renovation, microcement Marrakech, microcement Morocco"
   },
   "nav": {
@@ -25,7 +25,8 @@
     "eyebrow": "Nationwide manufacturing & application · Morocco",
     "titleA": "Seamless surfaces",
     "titleB": "with a mineral soul.",
-    "subtitle": "We transform villas, hotels, spas and boutiques with béton ciré and microcement just 2 to 3 mm thick. No joints, no demolition, with high-architecture finishes.",
+    "subtitle": "Premium finishes for villas and exceptional spaces.",
+    "surfaceTypes": "Floors · Walls · Bathrooms · Kitchens",
     "ctaPrimary": "Explore finishes",
     "ctaSecondary": "See before / after",
     "stats": [
@@ -95,6 +96,9 @@
     "text": "Drag the central handle to see how we apply microcement directly over old tiles, marble or an existing floor in just 2 to 3 mm.",
     "before": "Before · Tiled with joints",
     "after": "After · Béton Ciré",
+    "beforeMobile": "Before",
+    "afterMobile": "After",
+    "sliderLabel": "Before and after comparison",
     "beforeAlt": "Bathroom before renovation, traditional tiles",
     "afterAlt": "Bathroom after renovation in béton ciré"
   },
@@ -264,7 +268,7 @@
       "intro": "Describe your surface: we come back to you with a detailed quote within 24 hours, anywhere in Morocco.",
       "infoTitle": "Details",
       "infoPhone": "Phone",
-      "infoEmail": "Email",
+      "infoSocial": "Social media",
       "infoZones": "Service areas",
       "infoZonesValue": "Casablanca, Rabat, Marrakech, Tangier, Agadir and across the Kingdom",
       "infoHours": "Availability",

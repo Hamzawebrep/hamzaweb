@@ -72,7 +72,7 @@ export function Navbar() {
           </Link>
 
           {/* Navigation desktop */}
-          <div className="hidden items-center gap-1 lg:flex">
+          <div className="hidden items-center gap-1 xl:flex">
             {NAV.map((item) => {
               const active = pathname === item.href;
               return (
@@ -112,7 +112,7 @@ export function Navbar() {
               onClick={() => setOpen((v) => !v)}
               aria-label={t('menu')}
               aria-expanded={open}
-              className="flex h-10 w-10 flex-col items-center justify-center gap-[5px] rounded-full border border-white/15 text-white transition hover:bg-white/10 lg:hidden"
+              className="flex h-10 w-10 flex-col items-center justify-center gap-[5px] rounded-full border border-white/15 text-white transition hover:bg-white/10 xl:hidden"
             >
               <motion.span
                 animate={open ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
@@ -138,7 +138,7 @@ export function Navbar() {
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-              className="overflow-hidden lg:hidden"
+              className="overflow-hidden xl:hidden"
             >
               <div className="mx-2 mt-3 mb-2 flex flex-col rounded-3xl border border-white/10 bg-ink/95 p-3">
                 {NAV.map((item) => (

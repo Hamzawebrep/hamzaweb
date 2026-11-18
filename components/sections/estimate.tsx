@@ -53,7 +53,7 @@ export function Estimate() {
 
         <div className="grid gap-6 lg:grid-cols-12">
           {/* Formulaire */}
-          <div className="space-y-8 rounded-3xl border border-ink/5 bg-white p-8 shadow-xl lg:col-span-7">
+          <div className="min-w-0 space-y-8 rounded-3xl border border-ink/5 bg-white p-5 shadow-xl sm:p-8 lg:col-span-7">
             {/* Surface */}
             <div>
               <div className="flex items-end justify-between">
@@ -122,14 +122,14 @@ export function Estimate() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder={t('namePlaceholder')}
-                className="mt-3 rounded-xl border border-ink/15 bg-bone px-4 py-3 text-sm outline-none focus:border-terracotta sm:mt-8"
+                className="mt-3 w-full min-w-0 rounded-xl border border-ink/15 bg-bone px-4 py-3 text-sm outline-none focus:border-terracotta sm:mt-8"
               />
               <input
                 type="tel"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 placeholder={t('phonePlaceholder')}
-                className="mt-3 rounded-xl border border-ink/15 bg-bone px-4 py-3 text-sm outline-none focus:border-terracotta sm:mt-8"
+                className="mt-3 w-full min-w-0 rounded-xl border border-ink/15 bg-bone px-4 py-3 text-sm outline-none focus:border-terracotta sm:mt-8"
               />
             </div>
           </div>

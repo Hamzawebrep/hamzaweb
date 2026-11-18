@@ -63,12 +63,12 @@ export const projectImages: Record<ProjectId, string> = {
 };
 
 export const contacts = {
-  phone: '+212 6 00 00 00 00',
-  phoneRaw: '212600000000',
-  email: 'contact@ahatelier.ma',
-  whatsapp: 'https://wa.me/212600000000',
-  instagram: '#',
-  facebook: '#',
+  phone: '+212 664 19 18 70',
+  phoneRaw: '212664191870',
+  secondaryPhone: '+212 625 35 29 39',
+  whatsapp: 'https://wa.me/212664191870',
+  instagram: 'https://www.instagram.com/atelier_microciment',
+  facebook: 'https://www.facebook.com/322739018383617?ref=NONE_xav_ig_profile_page_web',
 } as const;
 
 /** Message WhatsApp pré-rempli (devis). */

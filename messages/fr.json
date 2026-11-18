@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "AM Atelier — Microciment & Béton Ciré par Hamza Tagdalt",
-    "description": "Spécialiste du microciment et du béton ciré au Maroc. Surfaces continues sans joints de 2-3 mm pour villas, hôtels, spas et boutiques. Devis en 24h.",
+    "description": "Finitions haut de gamme pour villas & espaces d’exception. Sols, murs, salles de bain et cuisines en microciment au Maroc.",
     "keywords": "microciment, béton ciré, Maroc, Casablanca, Marrakech, sol sans joint, rénovation, béton ciré Marrakech, microciment Maroc"
   },
   "nav": {
@@ -25,7 +25,8 @@
     "eyebrow": "Fabrication & application nationale · Maroc",
     "titleA": "Surfaces continues",
     "titleB": "à l'âme minérale.",
-    "subtitle": "Nous transformons villas, hôtels, spas et boutiques avec du béton ciré et du microciment de 2 à 3 mm. Sans joints, sans démolition, avec des finitions de haute architecture.",
+    "subtitle": "Finitions haut de gamme pour villas & espaces d’exception.",
+    "surfaceTypes": "Sols · Murs · Salles de bain · Cuisines",
     "ctaPrimary": "Explorer les finitions",
     "ctaSecondary": "Voir avant / après",
     "stats": [
@@ -95,6 +96,9 @@
     "text": "Glissez la barre centrale pour constater comment nous appliquons le microciment directement sur carrelage ancien, marbre ou sol existant en seulement 2 à 3 mm.",
     "before": "Avant · Carrelage avec joints",
     "after": "Après · Béton Ciré",
+    "beforeMobile": "Avant",
+    "afterMobile": "Après",
+    "sliderLabel": "Comparateur avant et après",
     "beforeAlt": "Salle de bain avant rénovation, carrelage traditionnel",
     "afterAlt": "Salle de bain après rénovation en béton ciré"
   },
@@ -264,7 +268,7 @@
       "intro": "Décrivez-nous votre surface : nous revenons vers vous avec un devis détaillé en moins de 24 h, partout au Maroc.",
       "infoTitle": "Coordonnées",
       "infoPhone": "Téléphone",
-      "infoEmail": "Email",
+      "infoSocial": "Réseaux sociaux",
       "infoZones": "Zones d'intervention",
       "infoZonesValue": "Casablanca, Rabat, Marrakech, Tanger, Agadir et tout le Royaume",
       "infoHours": "Disponibilité",

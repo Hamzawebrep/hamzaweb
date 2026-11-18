@@ -26,9 +26,27 @@ export default async function ContactPage({
   setRequestLocale(locale);
   const t = await getTranslations('pages.contact');
 
-  const info = [
-    { label: t('infoPhone'), value: contacts.phone, href: `tel:${contacts.phone.replace(/\s/g, '')}` },
-    { label: t('infoEmail'), value: contacts.email, href: `mailto:${contacts.email}` },
+  const info: {
+    label: string;
+    value?: string;
+    href?: string;
+    values?: { value: string; href: string }[];
+    links?: { label: string; href: string }[];
+  }[] = [
+    {
+      label: t('infoPhone'),
+      values: [contacts.phone, contacts.secondaryPhone].map((phone) => ({
+        value: phone,
+        href: `tel:${phone.replace(/[^\d+]/g, '')}`,
+      })),
+    },
+    {
+      label: t('infoSocial'),
+      links: [
+        { label: 'Instagram', href: contacts.instagram },
+        { label: 'Facebook', href: contacts.facebook },
+      ],
+    },
     { label: t('infoZones'), value: t('infoZonesValue') },
     { label: t('infoHours'), value: t('infoHoursValue') },
   ];
@@ -44,7 +62,33 @@ export default async function ContactPage({
               <Reveal key={row.label} delay={i * 0.06} className="bg-bone">
                 <div className="h-full p-6">
                   <div className="label text-terracotta">{row.label}</div>
-                  {row.href ? (
+                  {row.values ? (
+                    <div className="mt-3 space-y-2 text-sm">
+                      {row.values.map((item) => (
+                        <a
+                          key={item.value}
+                          href={item.href}
+                          className="block text-ink/80 transition-colors hover:text-terracotta"
+                        >
+                          {item.value}
+                        </a>
+                      ))}
+                    </div>
+                  ) : row.links ? (
+                    <div className="mt-3 space-y-2 text-sm">
+                      {row.links.map((link) => (
+                        <a
+                          key={link.label}
+                          href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block text-ink/80 transition-colors hover:text-terracotta"
+                        >
+                          {link.label}
+                        </a>
+                      ))}
+                    </div>
+                  ) : row.href ? (
                     <a
                       href={row.href}
                       className="mt-3 block text-sm text-ink/80 transition-colors hover:text-terracotta"
@@ -52,7 +96,7 @@ export default async function ContactPage({
                       {row.value}
                     </a>
                   ) : (
-                    <p className="mt-3 text-sm text-ink/80">{row.value}</p>
+                    <p className="mt-3 break-words text-sm text-ink/80">{row.value}</p>
                   )}
                 </div>
               </Reveal>
