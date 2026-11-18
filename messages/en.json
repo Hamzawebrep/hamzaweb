@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "title": "AH Atelier — Microcement & Béton Ciré by Hamza Tagdalt",
+    "description": "Specialists in microcement and béton ciré in Morocco. Seamless 2-3 mm surfaces without joints for villas, hotels, spas and boutiques. Quote within 24h.",
+    "keywords": "microcement, polished concrete, Morocco, Casablanca, Marrakech, seamless floor, renovation, microcement Marrakech, microcement Morocco"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "24h Quote",
+    "menu": "Open menu"
+  },
+  "common": {
+    "backToTop": "Back to top",
+    "whatsappMessage": "Hello AH Atelier, I would like information about microcement.",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "scroll": "Scroll"
+  },
+  "hero": {
+    "eyebrow": "Nationwide manufacturing & application · Morocco",
+    "titleA": "Seamless surfaces",
+    "titleB": "with a mineral soul.",
+    "subtitle": "We transform villas, hotels, spas and boutiques with béton ciré and microcement just 2 to 3 mm thick. No joints, no demolition, with high-architecture finishes.",
+    "ctaPrimary": "Explore finishes",
+    "ctaSecondary": "See before / after",
+    "stats": [
+      { "value": "3", "suffix": "mm", "label": "Maximum thickness" },
+      { "value": "100", "suffix": "%", "label": "Waterproof & washable" },
+      { "value": "15", "suffix": "+", "label": "Years of warranty" },
+      { "value": "24", "suffix": "h", "label": "Quote turnaround" }
+    ],
+    "imageAlt": "Luxury interior in béton ciré"
+  },
+  "marquee": {
+    "items": [
+      "Casablanca",
+      "Marrakech",
+      "Rabat",
+      "Tangier",
+      "Agadir",
+      "Hotels & Spas",
+      "Luxury villas",
+      "Boutiques",
+      "Riads",
+      "Restaurants"
+    ]
+  },
+  "manifesto": {
+    "eyebrow": "The signature",
+    "title": "Matter. Design. Durability.",
+    "text": "Three words that guide every project. We do not apply a coating: we sculpt a living material, tailor-made for the place and built to last through the years.",
+    "signature": "Hamza Tagdalt — Founder",
+    "imageAlt": "Craftsman applying microcement with a trowel"
+  },
+  "pillars": {
+    "eyebrow": "Our DNA",
+    "title": "Four commitments",
+    "items": [
+      { "icon": "✦", "title": "Noble materials", "subtitle": "Exceptional finishes" },
+      { "icon": "✎", "title": "Craftsmanship", "subtitle": "Artisanal gestures" },
+      { "icon": "⌂", "title": "Unique spaces", "subtitle": "Fully bespoke" },
+      { "icon": "❋", "title": "Durable", "subtitle": "Timeless beauty" }
+    ]
+  },
+  "studio": {
+    "eyebrow": "Material study",
+    "title": "Compose your ideal texture",
+    "description": "Unlike a static chart, preview here how each mineral pigment reacts with our four technical sealers.",
+    "colorLabel": "1. Choose the pigment — custom RAL",
+    "finishLabel": "2. Choose the sealer and texture",
+    "usageLabel": "Recommended use",
+    "cta": "Request a free sample",
+    "colors": [
+      { "hex": "#C7B9A5", "name": "Travertine Beige", "desc": "The most requested shade in warm residential architecture.", "use": "Living rooms, bathrooms & terraces" },
+      { "hex": "#ECE7DF", "name": "Pearl White", "desc": "Absolute luminosity for minimalist spaces.", "use": "Walls, lofts & galleries" },
+      { "hex": "#3A3B3C", "name": "Anthracite Grey", "desc": "Industrial, dramatic character with high contrast.", "use": "Offices, showrooms & kitchens" },
+      { "hex": "#B97254", "name": "Marrakech Terracotta", "desc": "A warm pigment inspired by Moroccan earth.", "use": "Boutique hotels & riads" },
+      { "hex": "#546357", "name": "Sage Green", "desc": "An organic trend that connects with nature.", "use": "Spas, hammams & wet areas" }
+    ],
+    "finishes": [
+      { "id": "mat", "name": "Matte", "hint": "100% natural look" },
+      { "id": "satine", "name": "Satin", "hint": "Modern balance" },
+      { "id": "poli", "name": "Polished", "hint": "Living marble effect" },
+      { "id": "anti", "name": "Anti-slip", "hint": "Showers & pools" }
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Precision renovation",
+    "title": "Transform without demolishing",
+    "text": "Drag the central handle to see how we apply microcement directly over old tiles, marble or an existing floor in just 2 to 3 mm.",
+    "before": "Before · Tiled with joints",
+    "after": "After · Béton Ciré",
+    "beforeAlt": "Bathroom before renovation, traditional tiles",
+    "afterAlt": "Bathroom after renovation in béton ciré"
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Selected works",
+    "description": "A selection of projects delivered across Morocco, from intimate riads to commercial flagships.",
+    "filters": {
+      "all": "All",
+      "residential": "Residential",
+      "hospitality": "Hospitality",
+      "retail": "Retail"
+    },
+    "items": [
+      { "id": "riad", "title": "Riad Spa & Hammam", "city": "Marrakech", "category": "hospitality" },
+      { "id": "anfa", "title": "Villa Anfa Kitchen", "city": "Casablanca", "category": "residential" },
+      { "id": "boutique", "title": "Flagship Boutique", "city": "Rabat", "category": "retail" },
+      { "id": "palmeraie", "title": "Villa Palmeraie Terrace", "city": "Marrakech", "category": "residential" },
+      { "id": "restaurant", "title": "Panoramic Restaurant", "city": "Tangier", "category": "hospitality" },
+      { "id": "showroom", "title": "Minimal Showroom", "city": "Agadir", "category": "retail" }
+    ]
+  },
+  "advantages": {
+    "eyebrow": "Engineering & aesthetics",
+    "title": "Built to last for decades",
+    "imageAlt": "Minimalist luxury hotel lobby",
+    "items": [
+      {
+        "tag": "Exclusive anti-crack system",
+        "title": "Ready to use · Zero VOC emissions",
+        "text": "Water-based, solvent-free formula pre-mixed in our workshop to guarantee a consistent, clean and eco-friendly finish indoors and on facades."
+      },
+      {
+        "tag": "Waterproofing",
+        "title": "100% Waterproof",
+        "text": "Ideal for walk-in showers, spas, hammams, kitchens and pools without any infiltration."
+      },
+      {
+        "tag": "Relief",
+        "title": "Architectural walls",
+        "text": "Relief textures, raw concrete or formwork effects for lofts and luxury boutiques."
+      },
+      {
+        "tag": "Sectors",
+        "title": "Hotels, Spas & Retail",
+        "text": "High resistance to heavy footfall and commercial wear. Simple neutral-soap cleaning."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Artisanal process",
+    "title": "Four steps to technical perfection",
+    "steps": [
+      { "n": "01", "label": "Preparation", "title": "Substrate & sanding", "text": "Cleaning, levelling and bonding primer on the existing floor or tiles." },
+      { "n": "02", "label": "Base", "title": "Mesh & render", "text": "Two flexible base coats with anti-crack fibreglass mesh." },
+      { "n": "03", "label": "Aesthetics", "title": "Microcement", "text": "Artisanal trowel application to create unique mineral movements and textures." },
+      { "n": "04", "label": "Armouring", "title": "PU sealing", "text": "Two-component polyurethane varnish resistant to chemicals, water and UV." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Trust",
+    "title": "What our clients say",
+    "items": [
+      { "quote": "The transformation of our riad is spectacular. We went from old tiles to a flawless seamless floor, with no works and no dust.", "name": "Youssef A.", "role": "Riad owner · Marrakech" },
+      { "quote": "A level of detail worthy of high architecture. The satin finish in our lobby is simply perfect.", "name": "Leïla M.", "role": "Architect · Casablanca" },
+      { "quote": "Quote in under 24 hours, a punctual and tidy team. Our boutique was ready ahead of schedule.", "name": "Karim B.", "role": "Retail manager · Rabat" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Frequently asked",
+    "title": "Everything you need to know",
+    "items": [
+      { "q": "Can microcement be applied over existing tiles or marble?", "a": "Yes. Our system includes a specific bonding primer that allows direct application over ceramic, marble or stoneware without demolition. This reduces rubble, dust and project time." },
+      { "q": "How long does it take to dry and when can it be used?", "a": "Touch-dry is fast, but the polyurethane sealer fully cures in 24 to 72 hours depending on humidity and temperature. We give you the exact handover date at the end of the works." },
+      { "q": "Does the price include materials and labour?", "a": "Yes. Every quote is turnkey: it covers substrate preparation, materials, application and final sealing. Only travel costs are added outside the main cities." },
+      { "q": "What maintenance does a béton ciré surface need?", "a": "Minimal: clean with water and neutral soap. We recommend re-sealing with a protective varnish every 3 to 5 years in high-traffic areas." },
+      { "q": "Do you work throughout Morocco?", "a": "Yes. We deliver projects in Casablanca, Rabat, Marrakech, Tangier, Agadir and across the Kingdom. A free technical visit validates the substrate and the quote." }
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Instant estimator",
+    "title": "Calculate your project in 30 seconds",
+    "text": "Homeowner, architect or professional applicator? We send you a detailed quote and advice within 24 hours across Morocco.",
+    "surfaceLabel": "Approximate surface",
+    "typeLabel": "Surface type",
+    "cityLabel": "City",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "Phone / WhatsApp",
+    "types": [
+      { "value": "550", "label": "Indoor floor" },
+      { "value": "650", "label": "Bathroom / Wet area" },
+      { "value": "500", "label": "Decorative walls" },
+      { "value": "700", "label": "Facade / Outdoor" }
+    ],
+    "cities": ["Casablanca", "Marrakech", "Rabat", "Tangier", "Agadir", "Other city"],
+    "resultLabel": "Indicative estimate",
+    "resultTag": "Materials + labour",
+    "priceUnit": "MAD",
+    "disclaimer": "Estimated price, subject to substrate condition after a free technical visit.",
+    "cta": "Get the quote on WhatsApp",
+    "reassurance": "Guaranteed reply within 24h · No commitment",
+    "waIntro": "Hello AH Atelier, I would like a quote for microcement.",
+    "waName": "Name",
+    "waPhone": "Phone",
+    "waSurface": "Surface",
+    "waType": "Type",
+    "waCity": "City",
+    "waEstimate": "Web estimate",
+    "waNotProvided": "(not provided)"
+  },
+  "ctaBand": {
+    "eyebrow": "Let's begin",
+    "title": "Your project deserves an exceptional material.",
+    "text": "Free technical visit and detailed quote within 24h, anywhere in Morocco.",
+    "cta": "Request my quote"
+  },
+  "pages": {
+    "projects": {
+      "eyebrow": "Portfolio",
+      "title": "Our works",
+      "intro": "Every project is a unique piece. Browse a selection of residential, hospitality and commercial projects delivered across Morocco.",
+      "metaTitle": "Projects & works",
+      "metaDesc": "Discover our microcement and béton ciré projects in Morocco: villas, riads, hotels, spas and boutiques."
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "What we deliver",
+      "intro": "From floor to wall, indoors and outdoors, we cover all your surfaces with a complete, turnkey system.",
+      "metaTitle": "Services",
+      "metaDesc": "Floors, walls, bathrooms, facades and furniture in béton ciré and microcement. Turnkey system in Morocco.",
+      "items": [
+        { "icon": "▦", "title": "Seamless floors", "text": "Jointless floors, perfectly smooth or anti-slip, suited to every use and style.", "bullets": ["Jointless", "Anti-slip R11", "Underfloor compatible"] },
+        { "icon": "▤", "title": "Walls & facades", "text": "Decorative walls, raw concrete or formwork effects, and outdoor facades resistant to UV and rain.", "bullets": ["Durable outdoor", "Custom reliefs", "UV resistant"] },
+        { "icon": "◎", "title": "Wet areas", "text": "Bathrooms, walk-in showers, hammams, spas and pools, with guaranteed waterproofing.", "bullets": ["Full waterproofing", "Hammams & spas", "Pool surrounds"] },
+        { "icon": "◈", "title": "Furniture & worktops", "text": "Worktops, basins, bathtubs and masonry furniture clad in a continuous, mineral material.", "bullets": ["Worktops", "Monobloc basins", "Bespoke"] }
+      ]
+    },
+    "process": {
+      "eyebrow": "Method",
+      "title": "A fully controlled project, from A to Z",
+      "intro": "A rigorous four-phase protocol for a homogeneous, resistant and durable result.",
+      "metaTitle": "Process",
+      "metaDesc": "Our 4-step method for perfect microcement: preparation, base, application and sealing.",
+      "guarantees": [
+        { "title": "Technical visit", "text": "Substrate analysis and measurements, free of charge, before any quote." },
+        { "title": "Turnkey quote", "text": "A transparent price including materials, labour and sealing." },
+        { "title": "Warranty", "text": "Up to 15 years depending on substrate type and room." },
+        { "title": "Zero dust", "text": "Applied directly over the existing surface, with no demolition or heavy works." }
+      ]
+    },
+    "about": {
+      "eyebrow": "About",
+      "title": "The workshop behind the material",
+      "lead": "AH Atelier was born from a conviction: beauty comes from the right gesture and true material.",
+      "story": [
+        "Founded and led by Hamza Tagdalt, AH Atelier brings together craftsmen passionate about béton ciré and microcement. From manufacturing to application, we control the entire chain to guarantee consistent quality.",
+        "We work with demanding homeowners, architects and hospitality professionals, with the same obsession for detail and durability.",
+        "Our promise comes down to three words: Matter. Design. Durability."
+      ],
+      "portraitAlt": "Portrait of the founder in the workshop",
+      "metaTitle": "About",
+      "metaDesc": "AH Atelier, a Moroccan microcement and béton ciré workshop founded by Hamza Tagdalt. Matter, design and durability."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your project",
+      "intro": "Describe your surface: we come back to you with a detailed quote within 24 hours, anywhere in Morocco.",
+      "infoTitle": "Details",
+      "infoPhone": "Phone",
+      "infoEmail": "Email",
+      "infoZones": "Service areas",
+      "infoZonesValue": "Casablanca, Rabat, Marrakech, Tangier, Agadir and across the Kingdom",
+      "infoHours": "Availability",
+      "infoHoursValue": "Monday – Saturday, 9am – 7pm",
+      "metaTitle": "Contact & quote",
+      "metaDesc": "Request your free microcement and béton ciré quote. Reply within 24h, anywhere in Morocco."
+    }
+  },
+  "footer": {
+    "brand": "Microcement & Béton Ciré",
+    "about": "Architectural béton ciré and microcement. Seamless surfaces for high-end projects, all across Morocco.",
+    "signature": "by Hamza Tagdalt",
+    "navTitle": "Navigation",
+    "zonesTitle": "Areas",
+    "zones": ["Casablanca · Rabat", "Marrakech · Agadir", "Tangier · All Morocco"],
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "credit": "Matter. Design. Durability."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to home"
+  }
+}

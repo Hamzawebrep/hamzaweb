@@ -1,0 +1,130 @@
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------
+   AH ATELIER — Design System "Minéral Éditorial"
+   Tailwind CSS v4 (configuration CSS-first via @theme)
+------------------------------------------------------------------- */
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
+}
+
+@theme {
+  /* Palette minérale */
+  --color-ink: #0c0b0a;
+  --color-coal: #141311;
+  --color-graphite: #221f1b;
+  --color-bone: #f7f3ec;
+  --color-shell: #efe8dd;
+  --color-sand: #e2d8c8;
+  --color-travertine: #ccbeab;
+  --color-terracotta: #c05f3a;
+  --color-clay: #9c4a28;
+  --color-amber: #d99a5b;
+  --color-moss: #4e5d4e;
+
+  /* Animations */
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+
+  /* Typographie fluide */
+  --text-display: clamp(2.75rem, 7vw, 6.5rem);
+  --text-display--line-height: 0.92;
+  --text-display--letter-spacing: -0.03em;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-bone);
+    color: var(--color-ink);
+  }
+
+  ::selection {
+    background-color: var(--color-terracotta);
+    color: #fff;
+  }
+
+  /* Scrollbar discrète */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-shell);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-travertine);
+    border-radius: 99px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-terracotta);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@utility grain {
+  /* Grain minéral subtil, appliqué en overlay */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@utility label {
+  /* Petites étiquettes en majuscules */
+  font-size: 0.6875rem;
+  line-height: 1;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@utility text-stroke {
+  color: transparent;
+  -webkit-text-stroke: 1px currentColor;
+}

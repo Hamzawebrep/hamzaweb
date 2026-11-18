@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "title": "AH Atelier — Microciment & Béton Ciré par Hamza Tagdalt",
+    "description": "Spécialiste du microciment et du béton ciré au Maroc. Surfaces continues sans joints de 2-3 mm pour villas, hôtels, spas et boutiques. Devis en 24h.",
+    "keywords": "microciment, béton ciré, Maroc, Casablanca, Marrakech, sol sans joint, rénovation, béton ciré Marrakech, microciment Maroc"
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "services": "Services",
+    "process": "Processus",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Devis 24h",
+    "menu": "Ouvrir le menu"
+  },
+  "common": {
+    "backToTop": "Retour en haut",
+    "whatsappMessage": "Bonjour AH Atelier, je souhaite obtenir des informations sur le microciment.",
+    "viewAll": "Voir tout",
+    "learnMore": "En savoir plus",
+    "scroll": "Défiler"
+  },
+  "hero": {
+    "eyebrow": "Fabrication & application nationale · Maroc",
+    "titleA": "Surfaces continues",
+    "titleB": "à l'âme minérale.",
+    "subtitle": "Nous transformons villas, hôtels, spas et boutiques avec du béton ciré et du microciment de 2 à 3 mm. Sans joints, sans démolition, avec des finitions de haute architecture.",
+    "ctaPrimary": "Explorer les finitions",
+    "ctaSecondary": "Voir avant / après",
+    "stats": [
+      { "value": "3", "suffix": "mm", "label": "Épaisseur maximale" },
+      { "value": "100", "suffix": "%", "label": "Imperméable & lavable" },
+      { "value": "15", "suffix": "+", "label": "Ans de garantie" },
+      { "value": "24", "suffix": "h", "label": "Délai de devis" }
+    ],
+    "imageAlt": "Intérieur de luxe en béton ciré"
+  },
+  "marquee": {
+    "items": [
+      "Casablanca",
+      "Marrakech",
+      "Rabat",
+      "Tanger",
+      "Agadir",
+      "Hôtels & Spas",
+      "Villas de luxe",
+      "Boutiques",
+      "Riads",
+      "Restaurants"
+    ]
+  },
+  "manifesto": {
+    "eyebrow": "La signature",
+    "title": "Matière. Design. Durabilité.",
+    "text": "Trois mots qui guident chaque chantier. Nous ne posons pas un revêtement : nous sculptons une matière vivante, dessinée sur-mesure pour le lieu et pensée pour traverser les années.",
+    "signature": "Hamza Tagdalt — Fondateur",
+    "imageAlt": "Artisan appliquant du microciment à la taloche"
+  },
+  "pillars": {
+    "eyebrow": "Notre ADN",
+    "title": "Quatre engagements",
+    "items": [
+      { "icon": "✦", "title": "Matières nobles", "subtitle": "Finitions d'exception" },
+      { "icon": "✎", "title": "Savoir-faire", "subtitle": "Gestes artisanaux" },
+      { "icon": "⌂", "title": "Espaces uniques", "subtitle": "Sur-mesure absolu" },
+      { "icon": "❋", "title": "Durable", "subtitle": "Beauté intemporelle" }
+    ]
+  },
+  "studio": {
+    "eyebrow": "Étude de matière",
+    "title": "Composez votre texture idéale",
+    "description": "Contrairement à une carte statique, prévisualisez ici comment chaque pigment minéral réagit avec nos quatre scellements techniques.",
+    "colorLabel": "1. Choisissez le pigment — RAL personnalisable",
+    "finishLabel": "2. Choisissez le scellement et la texture",
+    "usageLabel": "Usage recommandé",
+    "cta": "Demander un échantillon gratuit",
+    "colors": [
+      { "hex": "#C7B9A5", "name": "Beige Travertin", "desc": "La teinte la plus demandée en architecture résidentielle chaleureuse.", "use": "Séjours, salles de bain & terrasses" },
+      { "hex": "#ECE7DF", "name": "Blanc Perle", "desc": "Luminosité absolue pour les espaces minimalistes.", "use": "Murs, lofts & galeries" },
+      { "hex": "#3A3B3C", "name": "Gris Anthracite", "desc": "Caractère industriel et dramatique de haut contraste.", "use": "Bureaux, showrooms & cuisines" },
+      { "hex": "#B97254", "name": "Terracotta Marrakech", "desc": "Pigment chaud inspiré de la terre marocaine.", "use": "Hôtels boutique & riads" },
+      { "hex": "#546357", "name": "Vert Sauge", "desc": "Tendance organique qui se connecte à la nature.", "use": "Spas, hammams & zones humides" }
+    ],
+    "finishes": [
+      { "id": "mat", "name": "Mat", "hint": "Aspect 100% naturel" },
+      { "id": "satine", "name": "Satiné", "hint": "Équilibre moderne" },
+      { "id": "poli", "name": "Poli", "hint": "Effet marbre vivant" },
+      { "id": "anti", "name": "Antidérapant", "hint": "Douches & piscines" }
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Rénovation de précision",
+    "title": "Transformer sans démolir",
+    "text": "Glissez la barre centrale pour constater comment nous appliquons le microciment directement sur carrelage ancien, marbre ou sol existant en seulement 2 à 3 mm.",
+    "before": "Avant · Carrelage avec joints",
+    "after": "Après · Béton Ciré",
+    "beforeAlt": "Salle de bain avant rénovation, carrelage traditionnel",
+    "afterAlt": "Salle de bain après rénovation en béton ciré"
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Réalisations",
+    "description": "Une sélection de chantiers livrés à travers le Maroc, du riad intimiste au flagship commercial.",
+    "filters": {
+      "all": "Tous",
+      "residential": "Résidentiel",
+      "hospitality": "Hôtellerie",
+      "retail": "Retail"
+    },
+    "items": [
+      { "id": "riad", "title": "Spa & Hammam Riad", "city": "Marrakech", "category": "hospitality" },
+      { "id": "anfa", "title": "Cuisine Villa Anfa", "city": "Casablanca", "category": "residential" },
+      { "id": "boutique", "title": "Flagship Boutique", "city": "Rabat", "category": "retail" },
+      { "id": "palmeraie", "title": "Terrasse Villa Palmeraie", "city": "Marrakech", "category": "residential" },
+      { "id": "restaurant", "title": "Restaurant Panoramique", "city": "Tanger", "category": "hospitality" },
+      { "id": "showroom", "title": "Showroom Minimal", "city": "Agadir", "category": "retail" }
+    ]
+  },
+  "advantages": {
+    "eyebrow": "Ingénierie & esthétique",
+    "title": "Conçu pour durer des décennies",
+    "imageAlt": "Hall d'hôtel minimaliste de luxe",
+    "items": [
+      {
+        "tag": "Système anti-fissures exclusif",
+        "title": "Prêt à l'emploi · Zéro émission VOC",
+        "text": "Formule à base d'eau, sans solvants et pré-mélangée en usine pour garantir une consistance homogène, propre et écologique en intérieur comme en façade."
+      },
+      {
+        "tag": "Étanchéité",
+        "title": "100% Imperméable",
+        "text": "Idéal pour les douches à l'italienne, spas, hammams, cuisines et piscines sans infiltrations."
+      },
+      {
+        "tag": "Relief",
+        "title": "Murs architecturaux",
+        "text": "Textures en relief, effet béton brut ou coffrage pour lofts et boutiques de luxe."
+      },
+      {
+        "tag": "Secteurs",
+        "title": "Hôtels, Spas & Retail",
+        "text": "Haute résistance au passage intense et à l'usure commerciale. Entretien au savon neutre."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Processus artisanal",
+    "title": "Quatre étapes vers la perfection technique",
+    "steps": [
+      { "n": "01", "label": "Préparation", "title": "Support & ponçage", "text": "Nettoyage, nivelage et pont d'adhérence sur le sol ou carrelage existant." },
+      { "n": "02", "label": "Base", "title": "Maille & enduit", "text": "Deux couches de base flexible avec maille de fibre de verre anti-fissures." },
+      { "n": "03", "label": "Esthétique", "title": "Microciment", "text": "Application artisanale à la taloche pour créer les mouvements et textures minérales uniques." },
+      { "n": "04", "label": "Blindage", "title": "Scellement PU", "text": "Vernis bi-composant polyuréthane résistant aux produits chimiques, à l'eau et aux UV." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Confiance",
+    "title": "Ce que disent nos clients",
+    "items": [
+      { "quote": "La transformation de notre riad est spectaculaire. Nous sommes passés de vieux carrelages à un sol continu impeccable, sans travaux ni poussière.", "name": "Youssef A.", "role": "Propriétaire de riad · Marrakech" },
+      { "quote": "Un niveau de détail de haute architecture. La finition satinée de notre hall est simplement parfaite.", "name": "Leïla M.", "role": "Architecte · Casablanca" },
+      { "quote": "Devis en moins de 24 h, équipe ponctuelle et propre. Notre boutique était prête avant la date prévue.", "name": "Karim B.", "role": "Responsable retail · Rabat" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Tout ce que vous devez savoir",
+    "items": [
+      { "q": "Peut-on appliquer le microciment sur du carrelage ou du marbre existant ?", "a": "Oui. Notre système inclut un pont d'adhérence spécifique qui permet d'appliquer directement sur céramique, marbre ou grès sans démolir. Cela réduit gravats, poussière et temps de chantier." },
+      { "q": "Combien de temps faut-il pour sécher et quand peut-on l'utiliser ?", "a": "Le séchage au toucher est rapide, mais le durcissement complet du scellement polyuréthane prend 24 à 72 h selon l'humidité et la température. Nous vous indiquons la date exacte de mise en service à la fin des travaux." },
+      { "q": "Le prix inclut-il le matériel et la main d'œuvre ?", "a": "Oui. Tous nos devis sont « clé en main » : ils incluent la préparation du support, les matériaux, l'application et le scellement final. Seuls les frais de déplacement s'ajoutent hors des villes principales." },
+      { "q": "Quel entretien pour une surface en béton ciré ?", "a": "Minimal : nettoyage à l'eau et au savon neutre. Nous recommandons un re-scellement avec vernis protecteur tous les 3 à 5 ans dans les zones à fort passage." },
+      { "q": "Intervenez-vous partout au Maroc ?", "a": "Oui. Nous réalisons des chantiers à Casablanca, Rabat, Marrakech, Tanger, Agadir et dans tout le Royaume. Une visite technique gratuite permet de valider le support et le devis." }
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Estimateur instantané",
+    "title": "Calculez votre projet en 30 secondes",
+    "text": "Particulier, architecte ou applicateur professionnel ? Nous vous envoyons un devis détaillé et des conseils en moins de 24 h dans tout le Maroc.",
+    "surfaceLabel": "Surface approximative",
+    "typeLabel": "Type de surface",
+    "cityLabel": "Ville",
+    "namePlaceholder": "Votre nom",
+    "phonePlaceholder": "Téléphone / WhatsApp",
+    "types": [
+      { "value": "550", "label": "Sol intérieur" },
+      { "value": "650", "label": "Salle de bain / Zone humide" },
+      { "value": "500", "label": "Murs décoratifs" },
+      { "value": "700", "label": "Façade / Extérieur" }
+    ],
+    "cities": ["Casablanca", "Marrakech", "Rabat", "Tanger", "Agadir", "Autre ville"],
+    "resultLabel": "Estimation indicative",
+    "resultTag": "Matériel + main d'œuvre",
+    "priceUnit": "MAD",
+    "disclaimer": "Prix estimé, soumis à l'état du support après visite technique gratuite.",
+    "cta": "Recevoir le devis par WhatsApp",
+    "reassurance": "Réponse garantie en moins de 24 h · Sans engagement",
+    "waIntro": "Bonjour AH Atelier, je souhaite un devis pour du microciment.",
+    "waName": "Nom",
+    "waPhone": "Téléphone",
+    "waSurface": "Surface",
+    "waType": "Type",
+    "waCity": "Ville",
+    "waEstimate": "Estimation web",
+    "waNotProvided": "(non indiqué)"
+  },
+  "ctaBand": {
+    "eyebrow": "Passons à l'acte",
+    "title": "Votre projet mérite une matière d'exception.",
+    "text": "Visite technique gratuite et devis détaillé en 24 h, partout au Maroc.",
+    "cta": "Demander mon devis"
+  },
+  "pages": {
+    "projects": {
+      "eyebrow": "Portfolio",
+      "title": "Nos réalisations",
+      "intro": "Chaque chantier est une pièce unique. Parcourez une sélection de projets résidentiels, hôteliers et commerciaux livrés à travers le Maroc.",
+      "metaTitle": "Projets & réalisations",
+      "metaDesc": "Découvrez nos réalisations en microciment et béton ciré au Maroc : villas, riads, hôtels, spas et boutiques."
+    },
+    "services": {
+      "eyebrow": "Prestations",
+      "title": "Ce que nous réalisons",
+      "intro": "Du sol au mur, en intérieur comme en extérieur, nous couvrons l'ensemble de vos surfaces avec un système complet, clé en main.",
+      "metaTitle": "Services",
+      "metaDesc": "Sols, murs, salles de bain, façades et mobilier en béton ciré et microciment. Système clé en main au Maroc.",
+      "items": [
+        { "icon": "▦", "title": "Sols continus", "text": "Des sols sans joints, parfaitement lisses ou antidérapants, adaptés à tous les usages et à tous les styles.", "bullets": ["Sans joints", "Antidérapant R11", "Radiant compatible"] },
+        { "icon": "▤", "title": "Murs & façades", "text": "Murs décoratifs, effets béton brut ou coffrage, et façades extérieures résistantes aux UV et à la pluie.", "bullets": ["Extérieur durable", "Reliefs sur-mesure", "Résistant UV"] },
+        { "icon": "◎", "title": "Zones humides", "text": "Salles de bain, douches à l'italienne, hammams, spas et piscines, avec étanchéité garantie.", "bullets": ["Étanchéité totale", "Hammams & spas", "Abords de piscine"] },
+        { "icon": "◈", "title": "Mobilier & plans de travail", "text": "Plans de travail, vasques, baignoires et mobilier maçonnés recouverts d'une matière continue et minérale.", "bullets": ["Plans de travail", "Vasques monobloc", "Sur-mesure"] }
+      ]
+    },
+    "process": {
+      "eyebrow": "Méthode",
+      "title": "Un chantier maîtrisé, de A à Z",
+      "intro": "Un protocole rigoureux en quatre phases, pour un résultat homogène, résistant et durable.",
+      "metaTitle": "Processus",
+      "metaDesc": "Notre méthode en 4 étapes pour un microciment parfait : préparation, base, application et scellement.",
+      "guarantees": [
+        { "title": "Visite technique", "text": "Analyse du support et relevé de cotes, gratuitement, avant tout devis." },
+        { "title": "Devis clé en main", "text": "Un prix transparent incluant matériel, main d'œuvre et scellement." },
+        { "title": "Garantie", "text": "Jusqu'à 15 ans selon le type de support et la pièce." },
+        { "title": "Zéro poussière", "text": "Application directe sur l'existant, sans démolition ni gros œuvre." }
+      ]
+    },
+    "about": {
+      "eyebrow": "À propos",
+      "title": "L'atelier derrière la matière",
+      "lead": "AH Atelier est né d'une conviction : la beauté naît du geste juste et de la matière vraie.",
+      "story": [
+        "Fondé et dirigé par Hamza Tagdalt, AH Atelier réunit des artisans passionnés par le béton ciré et le microciment. De la fabrication à l'application, nous maîtrisons toute la chaîne pour garantir une qualité constante.",
+        "Nous intervenons auprès de particuliers exigeants, d'architectes et de professionnels de l'hôtellerie, avec la même obsession du détail et de la durabilité.",
+        "Notre promesse tient en trois mots : Matière. Design. Durabilité."
+      ],
+      "portraitAlt": "Portrait du fondateur dans l'atelier",
+      "metaTitle": "À propos",
+      "metaDesc": "AH Atelier, atelier marocain de microciment et béton ciré fondé par Hamza Tagdalt. Matière, design et durabilité."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Parlons de votre projet",
+      "intro": "Décrivez-nous votre surface : nous revenons vers vous avec un devis détaillé en moins de 24 h, partout au Maroc.",
+      "infoTitle": "Coordonnées",
+      "infoPhone": "Téléphone",
+      "infoEmail": "Email",
+      "infoZones": "Zones d'intervention",
+      "infoZonesValue": "Casablanca, Rabat, Marrakech, Tanger, Agadir et tout le Royaume",
+      "infoHours": "Disponibilité",
+      "infoHoursValue": "Lundi – Samedi, 9h – 19h",
+      "metaTitle": "Contact & devis",
+      "metaDesc": "Demandez votre devis gratuit en microciment et béton ciré. Réponse en 24h, partout au Maroc."
+    }
+  },
+  "footer": {
+    "brand": "Microciment & Béton Ciré",
+    "about": "Béton ciré et microciment architectural. Surfaces continues sans joints pour projets haut de gamme, partout au Maroc.",
+    "signature": "par Hamza Tagdalt",
+    "navTitle": "Navigation",
+    "zonesTitle": "Zones",
+    "zones": ["Casablanca · Rabat", "Marrakech · Agadir", "Tanger · Tout le Maroc"],
+    "contactTitle": "Contact",
+    "rights": "Tous droits réservés.",
+    "credit": "Matière. Design. Durabilité."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  }
+}
