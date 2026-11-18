@@ -58,12 +58,12 @@ export function Navbar() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo.png"
-              alt="AH Atelier"
+              alt="AM Atelier"
               className="h-9 w-9 rounded-full object-contain transition-transform duration-300 group-hover:scale-105 sm:h-10 sm:w-10"
             />
             <span className="hidden flex-col leading-none sm:flex">
               <span className="text-sm font-semibold uppercase tracking-[0.2em] text-bone">
-                AH Atelier
+                AM Atelier
               </span>
               <span className="font-display text-[11px] italic text-travertine/80">
                 Microciment &amp; Béton Ciré

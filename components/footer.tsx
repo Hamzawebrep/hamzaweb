@@ -29,12 +29,12 @@ export async function Footer() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/logo.png"
-                alt="AH Atelier"
+                alt="AM Atelier"
                 className="h-12 w-12 rounded-full object-contain"
               />
               <div className="leading-tight">
                 <div className="text-lg font-semibold uppercase tracking-[0.2em] text-bone">
-                  AH Atelier
+                  AM Atelier
                 </div>
                 <div className="font-display text-sm italic text-terracotta">
                   {t('brand')}
@@ -118,7 +118,7 @@ export async function Footer() {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs text-travertine/45 sm:flex-row">
           <p>
-            © {year} AH Atelier. {t('rights')}
+            © {year} AM Atelier. {t('rights')}
           </p>
           <p className="font-display italic">{t('credit')}</p>
         </div>
@@ -129,7 +129,7 @@ export async function Footer() {
         aria-hidden
         className="pointer-events-none select-none px-6 text-center font-display text-[18vw] leading-none tracking-tight text-white/[0.035]"
       >
-        AH Atelier
+        AM Atelier
       </div>
     </footer>
   );

@@ -42,7 +42,7 @@ export async function generateMetadata({
     metadataBase: new URL(SITE_URL),
     title: {
       default: t('title'),
-      template: `%s — AH Atelier`,
+      template: `%s — AM Atelier`,
     },
     description: t('description'),
     keywords: t('keywords'),
@@ -51,8 +51,8 @@ export async function generateMetadata({
       title: t('title'),
       description: t('description'),
       locale: locale === 'fr' ? 'fr_FR' : 'en_US',
-      siteName: 'AH Atelier',
-      images: [{ url: '/og.png', width: 1200, height: 630, alt: 'AH Atelier' }],
+      siteName: 'AM Atelier',
+      images: [{ url: '/og.png', width: 1200, height: 630, alt: 'AM Atelier' }],
     },
     twitter: {
       card: 'summary_large_image',
