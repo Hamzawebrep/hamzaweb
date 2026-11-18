@@ -20,14 +20,8 @@ export const media = {
     'landscape_4_3'
   ),
   beforeAfter: {
-    before: img(
-      'old dated bathroom with traditional ceramic wall tiles and grout lines, dim lighting, renovation before photo, realistic documentary photography',
-      'landscape_4_3'
-    ),
-    after: img(
-      'modern luxury bathroom with seamless beige microcement walls and floor, walk-in shower, minimalist design, warm ambient lighting, architectural photography',
-      'landscape_4_3'
-    ),
+    before: '/avant.webp',
+    after: '/apres.webp',
   },
   advantagesImage: img(
     'minimalist luxury boutique hotel lobby interior, warm travertine and terracotta tones, seamless concrete surfaces, ambient lighting, architectural photography, editorial',

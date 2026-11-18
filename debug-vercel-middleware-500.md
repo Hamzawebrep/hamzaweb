@@ -11,17 +11,22 @@
 ## Hypotheses & Verification
 | ID | Hypothesis | Likelihood | Effort | Evidence |
 |----|------------|------------|--------|----------|
-| A | Vercel is deploying a different commit or project root than the locally verified app. | Medium | Low | Local `HEAD` and GitHub `main` both equal `ddd15e7`; the Vercel build's exact SHA is unavailable |
+| A | Vercel is deploying a different commit or project root than the locally verified app. | Medium | Low | GitHub reports the fix deployment completed for `57fa924`; exact production alias mapping is unavailable |
 | B | Requests to application routes fail while invoking middleware in Vercel. | High | Medium | Confirmed: `/`, `/fr`, `/en`, and localized routes return 500 with `MIDDLEWARE_INVOCATION_FAILED`; `/logo.png` returns 200 |
 | C | The existing matcher routes every normal application path through the failing middleware. | High | Low | Confirmed by source matcher; replacement build manifest matches only `/__next_intl_middleware_disabled__` |
-| D | The exact runtime exception is identifiable from available Vercel logs. | Medium | Medium | Inconclusive: no Vercel CLI/project link/token or dashboard session is available |
+| D | Vercel project is serving only the static output instead of the Next.js application. | High | Low | Confirmed by latest deployment behavior: `/logo.png` is 200 while `/fr`, `/en`, `/robots.txt`, and `/sitemap.xml` are 404 |
 
 ## Log Evidence
 - User screenshot: `500 MIDDLEWARE_INVOCATION_FAILED`.
-- Live requests: `/`, `/fr`, `/en`, `/fr/projets`, and `/en/projects` return 500; `/logo.png` returns 200.
+- Before fix: live requests `/`, `/fr`, `/en`, `/fr/projets`, and `/en/projects` returned 500; `/logo.png` returned 200.
 - Local and GitHub `main` both point to `ddd15e78703f56d92d5441bc93347ba0429161d8`.
 - Corrected production build: `/` redirects 307 to `/fr`; all intended FR/EN routes, `robots.txt`, and `sitemap.xml` return 200 on localhost:3001.
 - Corrected middleware manifest only matches `/__next_intl_middleware_disabled__`.
+- GitHub Vercel status for fix commit `57fa924` reports `Deployment has completed`.
+- After commit `57fa924`, the public alias returned 404 for app routes and generated Next assets while still serving `/logo.png`, indicating static-only Vercel output.
+- Commit `307d299` added `vercel.json` with `framework: nextjs`; GitHub Vercel status is `success`.
+- Post-fix production: `/` -> 307 `/fr`; `/fr`, `/en`, `/fr/projets`, `/en/projects`, `/fr/processus`, `/en/process`, `/fr/a-propos`, `/en/about`, `/fr/services`, `/en/services`, `/fr/contact`, `/en/contact`, `/robots.txt`, `/sitemap.xml` -> 200.
+- Browser verification: `/fr` renders the French hero/navigation and `/en` renders English content; document language is `fr`/`en`.
 
 ## Verification Conclusion
-Workaround is verified locally. Production confirmation is pending the Vercel deployment from the fix commit.
+The root cause was Vercel serving only the static `public/` output instead of the Next.js app. The explicit framework override and middleware bypass are deployed and verified in production. Awaiting user confirmation before removing the debug record.
