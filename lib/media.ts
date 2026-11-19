@@ -33,33 +33,52 @@ export const media = {
   ),
 } as const;
 
+// ------------------------------------------------------------------
+// Photos réelles de chantiers (dossier /public) — fournies par l'atelier
+// ------------------------------------------------------------------
+export const realImages = {
+  // Effet béton
+  salon: '/effet-beton/salon-microcemento-table-bois.jpeg',
+  textureClaire: '/effet-beton/texture-claire-marques.jpeg',
+  escalier: '/effet-beton/escalier-bois-mur-beton.jpeg',
+  angle: '/effet-beton/angle-mur-microcemento.jpeg',
+  facade: '/effet-beton/facade-panneaux-beton.jpeg',
+  suspensions: '/effet-beton/suspensions-verre-mur-microcemento.jpeg',
+  panneauxJoints: '/effet-beton/panneaux-joints-brique.jpeg',
+  panneauxSombre: '/effet-beton/panneaux-mur-plafond-sombre.jpeg',
+  murPortant: '/effet-beton/mur-panneaux-portant-textiles.jpeg',
+  textureGris: '/effet-beton/texture-microcemento-gris.jpeg',
+  plafondHaut: '/effet-beton/plafond-haut-lamparas.jpeg',
+  plafondPanneaux: '/effet-beton/plafond-panneaux-beton-ladrillo.jpeg',
+  // Enduit à la chaux (Laime wach)
+  applicateur: '/enduit-chaux/applicateur-escalier-mur-gris.jpeg',
+  applicationTruelle: '/enduit-chaux/application-truelle-escalier.jpeg',
+  murGrisBaie: '/enduit-chaux/mur-gris-baie-vitree.jpeg',
+  salleBainBeige: '/enduit-chaux/salle-bain-beige-lavabo.jpeg',
+  salleBainNoir: '/enduit-chaux/salle-bain-vasque-miroir-noir.jpeg',
+  laimeWach: '/laime-wach.jpeg',
+} as const;
+
+/** Image associée à chaque prestation (page Services). */
+export type ServiceId = 'floors' | 'walls' | 'wet' | 'furniture' | 'lime';
+
+export const serviceImages: Record<ServiceId, string> = {
+  floors: realImages.textureGris,
+  walls: realImages.facade,
+  wet: realImages.salleBainNoir,
+  furniture: realImages.salon,
+  lime: realImages.laimeWach,
+};
+
 export type ProjectId = 'riad' | 'anfa' | 'boutique' | 'palmeraie' | 'restaurant' | 'showroom';
 
 export const projectImages: Record<ProjectId, string> = {
-  riad: img(
-    'luxury spa hammam interior with seamless microcement walls, warm lighting, minimalist wellness design, architectural photography',
-    'portrait_4_3'
-  ),
-  anfa: img(
-    'modern kitchen with seamless beige concrete microcement countertops and walls, minimalist, warm tones, architectural photography',
-    'portrait_4_3'
-  ),
-  boutique: img(
-    'luxury boutique store interior with polished microcement floor, minimalist retail design, warm ambient lighting, architectural photography',
-    'portrait_4_3'
-  ),
-  palmeraie: img(
-    'luxury villa terrace with microcement floor, palm shadows, marrakech architecture, warm sunset light, architectural photography',
-    'portrait_4_3'
-  ),
-  restaurant: img(
-    'elegant restaurant interior with microcement walls, warm terracotta tones, moody lighting, architectural photography',
-    'portrait_4_3'
-  ),
-  showroom: img(
-    'modern design showroom with polished concrete microcement floor, minimalist industrial chic, bright natural light, architectural photography',
-    'portrait_4_3'
-  ),
+  riad: realImages.angle,
+  anfa: realImages.salon,
+  boutique: realImages.suspensions,
+  palmeraie: realImages.facade,
+  restaurant: realImages.plafondHaut,
+  showroom: realImages.panneauxSombre,
 };
 
 export const contacts = {

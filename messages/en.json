@@ -228,12 +228,13 @@
       "title": "What we deliver",
       "intro": "From floor to wall, indoors and outdoors, we cover all your surfaces with a complete, turnkey system.",
       "metaTitle": "Services",
-      "metaDesc": "Floors, walls, bathrooms, facades and furniture in béton ciré and microcement. Turnkey system in Morocco.",
+      "metaDesc": "Floors, walls, bathrooms, facades, furniture and lime wash. Turnkey system in Morocco.",
       "items": [
-        { "icon": "▦", "title": "Seamless floors", "text": "Jointless floors, perfectly smooth or anti-slip, suited to every use and style.", "bullets": ["Jointless", "Anti-slip R11", "Underfloor compatible"] },
-        { "icon": "▤", "title": "Walls & facades", "text": "Decorative walls, raw concrete or formwork effects, and outdoor facades resistant to UV and rain.", "bullets": ["Durable outdoor", "Custom reliefs", "UV resistant"] },
-        { "icon": "◎", "title": "Wet areas", "text": "Bathrooms, walk-in showers, hammams, spas and pools, with guaranteed waterproofing.", "bullets": ["Full waterproofing", "Hammams & spas", "Pool surrounds"] },
-        { "icon": "◈", "title": "Furniture & worktops", "text": "Worktops, basins, bathtubs and masonry furniture clad in a continuous, mineral material.", "bullets": ["Worktops", "Monobloc basins", "Bespoke"] }
+        { "id": "floors", "icon": "▦", "title": "Seamless floors", "text": "Jointless floors, perfectly smooth or anti-slip, suited to every use and style.", "bullets": ["Jointless", "Anti-slip R11", "Underfloor compatible"] },
+        { "id": "walls", "icon": "▤", "title": "Walls & facades", "text": "Decorative walls, raw concrete or formwork effects, and outdoor facades resistant to UV and rain.", "bullets": ["Durable outdoor", "Custom reliefs", "UV resistant"] },
+        { "id": "wet", "icon": "◎", "title": "Wet areas", "text": "Bathrooms, walk-in showers, hammams, spas and pools, with guaranteed waterproofing.", "bullets": ["Full waterproofing", "Hammams & spas", "Pool surrounds"] },
+        { "id": "furniture", "icon": "◈", "title": "Furniture & worktops", "text": "Worktops, basins, bathtubs and masonry furniture clad in a continuous, mineral material.", "bullets": ["Worktops", "Monobloc basins", "Bespoke"] },
+        { "id": "lime", "icon": "✧", "title": "Clay wash · Laime wach", "text": "Lime wash, known in Morocco as \"Laime wach\": a matte, breathable mineral coating that brings depth and an authentic artisanal finish to both old and contemporary walls.", "bullets": ["Matte mineral tone", "Breathable walls", "Authentic artisanal look"] }
       ]
     },
     "process": {

@@ -228,12 +228,13 @@
       "title": "Ce que nous réalisons",
       "intro": "Du sol au mur, en intérieur comme en extérieur, nous couvrons l'ensemble de vos surfaces avec un système complet, clé en main.",
       "metaTitle": "Services",
-      "metaDesc": "Sols, murs, salles de bain, façades et mobilier en béton ciré et microciment. Système clé en main au Maroc.",
+      "metaDesc": "Sols, murs, salles de bain, façades, mobilier et enduit à la chaux. Système clé en main au Maroc.",
       "items": [
-        { "icon": "▦", "title": "Sols continus", "text": "Des sols sans joints, parfaitement lisses ou antidérapants, adaptés à tous les usages et à tous les styles.", "bullets": ["Sans joints", "Antidérapant R11", "Radiant compatible"] },
-        { "icon": "▤", "title": "Murs & façades", "text": "Murs décoratifs, effets béton brut ou coffrage, et façades extérieures résistantes aux UV et à la pluie.", "bullets": ["Extérieur durable", "Reliefs sur-mesure", "Résistant UV"] },
-        { "icon": "◎", "title": "Zones humides", "text": "Salles de bain, douches à l'italienne, hammams, spas et piscines, avec étanchéité garantie.", "bullets": ["Étanchéité totale", "Hammams & spas", "Abords de piscine"] },
-        { "icon": "◈", "title": "Mobilier & plans de travail", "text": "Plans de travail, vasques, baignoires et mobilier maçonnés recouverts d'une matière continue et minérale.", "bullets": ["Plans de travail", "Vasques monobloc", "Sur-mesure"] }
+        { "id": "floors", "icon": "▦", "title": "Sols continus", "text": "Des sols sans joints, parfaitement lisses ou antidérapants, adaptés à tous les usages et à tous les styles.", "bullets": ["Sans joints", "Antidérapant R11", "Radiant compatible"] },
+        { "id": "walls", "icon": "▤", "title": "Murs & façades", "text": "Murs décoratifs, effets béton brut ou coffrage, et façades extérieures résistantes aux UV et à la pluie.", "bullets": ["Extérieur durable", "Reliefs sur-mesure", "Résistant UV"] },
+        { "id": "wet", "icon": "◎", "title": "Zones humides", "text": "Salles de bain, douches à l'italienne, hammams, spas et piscines, avec étanchéité garantie.", "bullets": ["Étanchéité totale", "Hammams & spas", "Abords de piscine"] },
+        { "id": "furniture", "icon": "◈", "title": "Mobilier & plans de travail", "text": "Plans de travail, vasques, baignoires et mobilier maçonnés recouverts d'une matière continue et minérale.", "bullets": ["Plans de travail", "Vasques monobloc", "Sur-mesure"] },
+        { "id": "lime", "icon": "✧", "title": "Enduit à la chaux · Laime wach", "text": "L'enduit à la chaux, connu au Maroc sous le nom de « Laime wach » : un badigeon minéral mat et respirant qui apporte profondeur et authenticité artisanale aux murs anciens comme contemporains.", "bullets": ["Teinte minérale mate", "Murs respirants", "Aspect artisanal authentique"] }
       ]
     },
     "process": {
