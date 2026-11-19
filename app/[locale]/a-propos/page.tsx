@@ -38,7 +38,7 @@ export default async function AboutPage({
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={media.about}
+                src={media.ceo}
                 alt={t('portraitAlt')}
                 className="h-full w-full object-cover"
               />

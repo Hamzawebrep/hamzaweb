@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import type { AppPathname } from '@/i18n/routing';
 import { contacts } from '@/lib/media';
+import { SocialLinks } from '@/components/social-links';
 
 const NAV: { href: AppPathname; key: string }[] = [
   { href: '/projets', key: 'projects' },
@@ -90,22 +91,14 @@ export async function Footer() {
                   </a>
                 </li>
               ))}
-              <li className="flex gap-2 pt-2">
-                {[
-                  { label: 'Instagram', href: contacts.instagram, text: 'IG' },
-                  { label: 'Facebook', href: contacts.facebook, text: 'FB' },
-                ].map((s) => (
-                  <a
-                    key={s.label}
-                    href={s.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={s.label}
-                    className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-xs transition-colors hover:border-terracotta hover:text-terracotta"
-                  >
-                    {s.text}
-                  </a>
-                ))}
+              <li className="pt-2">
+                <SocialLinks
+                  links={[
+                    { label: 'Instagram', href: contacts.instagram },
+                    { label: 'Facebook', href: contacts.facebook },
+                  ]}
+                  variant="dark"
+                />
               </li>
             </ul>
           </div>

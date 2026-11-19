@@ -43,15 +43,16 @@ export default async function ServicesPage({
         <div className="mx-auto grid max-w-6xl gap-5 px-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item, i) => (
             <Reveal key={item.id} delay={i * 0.07}>
-              <article className="group flex h-full flex-col overflow-hidden rounded-3xl border border-ink/10 bg-white transition-colors hover:border-terracotta/40">
+              <article className="group flex h-full flex-col overflow-hidden rounded-3xl border border-ink/10 bg-white transition-[transform,border-color,box-shadow] duration-500 hover:-translate-y-1 hover:border-terracotta/40 hover:shadow-[0_24px_60px_-32px_rgba(12,11,10,0.35)]">
                 <div className="relative aspect-[16/11] overflow-hidden bg-sand">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={serviceImages[item.id]}
                     alt={item.title}
                     loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.05]"
+                    className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-[1.07]"
                   />
+                  <span className="absolute inset-x-0 bottom-0 h-px origin-left scale-x-0 bg-terracotta transition-transform duration-700 group-hover:scale-x-100" />
                 </div>
                 <div className="flex flex-1 flex-col p-8">
                   <span className="font-display text-4xl text-terracotta">

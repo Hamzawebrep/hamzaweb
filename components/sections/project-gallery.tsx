@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
 import { cn } from '@/lib/cn';
@@ -20,6 +20,7 @@ export function ProjectGallery({
   const t = useTranslations('projects');
   const items = t.raw('items') as Item[];
   const [filter, setFilter] = useState<(typeof FILTERS)[number]>('all');
+  const shouldReduceMotion = useReducedMotion();
 
   const visible =
     filter === 'all' ? items : items.filter((i) => i.category === filter);
@@ -65,6 +66,8 @@ export function ProjectGallery({
                 initial={{ opacity: 0, scale: 0.94 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.94 }}
+                whileHover={shouldReduceMotion ? undefined : { y: -7, scale: 1.01 }}
+                whileTap={shouldReduceMotion ? undefined : { scale: 0.985 }}
                 transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
                 className="group relative aspect-[4/5] overflow-hidden rounded-3xl bg-sand"
               >

@@ -56,7 +56,7 @@
     "title": "Matière. Design. Durabilité.",
     "text": "Trois mots qui guident chaque chantier. Nous ne posons pas un revêtement : nous sculptons une matière vivante, dessinée sur-mesure pour le lieu et pensée pour traverser les années.",
     "signature": "Hamza Tagdalt — Fondateur",
-    "imageAlt": "Artisan appliquant du microciment à la taloche"
+    "imageAlt": "Hamza Tagdalt, fondateur d'AM Atelier, devant le nom de l'entreprise"
   },
   "pillars": {
     "eyebrow": "Notre ADN",
@@ -259,7 +259,7 @@
         "Nous intervenons auprès de particuliers exigeants, d'architectes et de professionnels de l'hôtellerie, avec la même obsession du détail et de la durabilité.",
         "Notre promesse tient en trois mots : Matière. Design. Durabilité."
       ],
-      "portraitAlt": "Portrait du fondateur dans l'atelier",
+      "portraitAlt": "Hamza Tagdalt, fondateur d'AM Atelier",
       "metaTitle": "À propos",
       "metaDesc": "AM Atelier, atelier marocain de microciment et béton ciré fondé par Hamza Tagdalt. Matière, design et durabilité."
     },
@@ -274,6 +274,11 @@
       "infoZonesValue": "Casablanca, Rabat, Marrakech, Tanger, Agadir et tout le Royaume",
       "infoHours": "Disponibilité",
       "infoHoursValue": "Lundi – Samedi, 9h – 19h",
+      "founderEyebrow": "Le mot du fondateur",
+      "founderTitle": "Derrière chaque surface, un artisan.",
+      "founderText": "Fondé et dirigé par Hamza Tagdalt, AM Atelier applique le microciment et l'enduit à la chaux avec la même exigence : précision, matière et durabilité. Écrivez-nous et parlons directement de votre projet.",
+      "founderRole": "Fondateur",
+      "founderAlt": "Hamza Tagdalt, fondateur d'AM Atelier, devant le nom de l'entreprise",
       "metaTitle": "Contact & devis",
       "metaDesc": "Demandez votre devis gratuit en microciment et béton ciré. Réponse en 24h, partout au Maroc."
     }

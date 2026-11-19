@@ -13,7 +13,7 @@ export async function Manifesto() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={media.manifesto}
+              src={media.ceo}
               alt={t('imageAlt')}
               className="h-full w-full object-cover"
             />

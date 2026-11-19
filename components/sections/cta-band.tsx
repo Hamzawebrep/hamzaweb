@@ -11,7 +11,7 @@ export async function CtaBand() {
     <section className="relative overflow-hidden bg-ink py-24 text-bone sm:py-32">
       <div
         aria-hidden
-        className="pointer-events-none absolute -left-24 top-1/2 h-80 w-80 -translate-y-1/2 rounded-full bg-terracotta/25 blur-[120px]"
+        className="pointer-events-none absolute -left-24 top-1/2 h-80 w-80 -translate-y-1/2 animate-float rounded-full bg-terracotta/25 blur-[120px]"
       />
       <div className="relative mx-auto max-w-4xl px-6 text-center">
         <Reveal>

@@ -15,10 +15,6 @@ export const media = {
     'luxury minimalist living room interior, seamless warm beige microcement concrete walls and floor, no grout joints, soft natural daylight, high-end architectural editorial photography, travertine tones, subtle shadows, ultra realistic',
     'landscape_16_9'
   ),
-  manifesto: img(
-    'close-up of artisan hands applying microcement with a stainless steel trowel on a wall, warm mineral tones, textured surface, cinematic side light, editorial craft photography',
-    'landscape_4_3'
-  ),
   beforeAfter: {
     before: '/avant.webp',
     after: '/apres.webp',
@@ -27,10 +23,8 @@ export const media = {
     'minimalist luxury boutique hotel lobby interior, warm travertine and terracotta tones, seamless concrete surfaces, ambient lighting, architectural photography, editorial',
     'portrait_4_3'
   ),
-  about: img(
-    'portrait of a professional craftsman in a minimalist atelier, warm natural light, wearing work clothes, calm confident expression, editorial photography, mineral tones',
-    'portrait_4_3'
-  ),
+  /** Portrait réel du fondateur (CEO) — photo fournie par l'atelier. */
+  ceo: '/hamza-tagdalt.png',
 } as const;
 
 // ------------------------------------------------------------------
