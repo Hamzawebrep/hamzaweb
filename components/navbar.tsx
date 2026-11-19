@@ -54,18 +54,18 @@ export function Navbar() {
       >
         <div className="flex items-center justify-between gap-4 px-3 sm:px-5">
           {/* Marque */}
-          <Link href="/" className="group flex items-center gap-2.5">
+          <Link href="/" className="group flex min-w-0 items-center gap-2.5">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo.png"
               alt="AM Atelier"
               className="h-9 w-9 rounded-full object-contain transition-transform duration-300 group-hover:scale-105 sm:h-10 sm:w-10"
             />
-            <span className="hidden flex-col leading-none sm:flex">
-              <span className="text-sm font-semibold uppercase tracking-[0.2em] text-bone">
+            <span className="flex min-w-0 flex-col leading-none">
+              <span className="whitespace-nowrap text-[11px] font-semibold uppercase tracking-[0.16em] text-bone sm:text-sm sm:tracking-[0.2em]">
                 AM Atelier
               </span>
-              <span className="font-display text-[11px] italic text-travertine/80">
+              <span className="whitespace-nowrap font-display text-[9px] italic text-travertine/80 sm:text-[11px]">
                 Microciment &amp; Béton Ciré
               </span>
             </span>
